@@ -1,0 +1,32 @@
+﻿@model BikePro.Models.Dbtable
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center;">BikeRental-Online</h2>
+
+
+
+ 
+<div class="row">
+    <div class="col-md-12">
+        <h2>Our Services</h2>
+        <ul>
+            <li> @Html.ActionLink("Chennai", "Chennai")</li>
+            <li> @Html.ActionLink("Coimbatore", "Coimbatore")</li>
+            <li> @Html.ActionLink("Trichy", "Trichy")</li>
+            <li> @Html.ActionLink("Madurai", "Madurai")</li>
+</ul>
+    </div>
+    
+    <div class="col-md-12">
+        <h2>Our Achievement</h2>
+        <ul>
+            <li>*Best BikeRental Award From Government of India</li>
+            <li>*Best Services across all the bikerental services</li>
+            <li>*Feasible Level of Economic Rates</li>
+       </ul>
+ </div>
+</div>
